@@ -92,9 +92,9 @@ scheme: Mist
 
 # Social Links
 social:
-  github: https://github.com/linsir6
-  envelope: linsir678@gmail.com
-  weibo: https://weibo.com/5305037779/profile?rightmod=1&wvr=6&mod=personinfo
+  GitHub: https://github.com/linsir6
+  Weibo: https://weibo.com/5305037779/profile?rightmod=1&wvr=6&mod=personinfo
+  简书: http://www.jianshu.com/u/b51475b6a136
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
@@ -112,7 +112,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  E-Mail: linsir678@gmail.com
+  E-Mail: envelope
   Google: google
   Twitter: twitter
   FB Page: facebook
@@ -122,6 +122,7 @@ social_icons:
   Instagram: instagram
   StackOverflow: stack-overflow
   Weibo: weibo
+  简书: heartbeat
 
 # Blog rolls
 #links_title: Links
@@ -550,7 +551,7 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
