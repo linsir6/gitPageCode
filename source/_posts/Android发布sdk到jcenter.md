@@ -2,7 +2,7 @@
 title: Android发布sdk到jcenter
 date: 2017-11-17 12:08:17
 tags: sdk
-categories: android
+categories: Android
 ---
 
 # Android发布sdk到jcenter
