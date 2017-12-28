@@ -8,7 +8,7 @@ favicon: https://ws2.sinaimg.cn/large/006tKfTcly1fm02ntct9rj30ge0gejrq.jpg
 avatar: https://ws2.sinaimg.cn/large/006tKfTcly1fm02ntct9rj30ge0gejrq.jpg
 
 # Set default keywords (Use a comma to separate)
-baidu_analytics: 48672781168ebfe937b232e222d556b6
+#baidu_analytics: 48672781168ebfe937b232e222d556b6
 
 keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
