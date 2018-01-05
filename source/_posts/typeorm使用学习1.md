@@ -1,12 +1,12 @@
 ---
 layout: post
-title: typeorm使用学习记录
+title: typeorm使用学习记录1
 date: 2017-12-28 10:53:46
 tags: typeorm
 categories: nodejs
 ---
 
-# typeorm使用学习记录
+# typeorm使用学习记录1
 
 typeorm可以操作很多数据库，用起来也挺方便的，重点是能够连接很多数据库，最近在做公司的项目只是草草的看了几眼，就开始使用了，最近有点闲下来了，打算从头过一遍typeorm的文档，好好的学习一下。
 
@@ -137,3 +137,92 @@ const timber = await userRepository.findByName("Timber", "Saw");
 
 Data Mappter的方式可能更适用于一些大型的项目，这样，可以帮助我们维护我们的软件.
 Active record的方式可能更加简洁。
+
+
+## Caching queries (缓存查询)
+
+它缓存的实现，主要依赖于，自己在数据库里面建立一张缓存表，用的不是内存缓存，这样有好有坏吧，和我们的业务场景其实是不太适用的。这样做的好处，就是它不会把我们的内存跑满，而且也能大幅提高查询速度。但是我们更希望的是一个内存缓存。
+
+它的用法，就是在配置的过程中，增加一个cache字段。
+
+可以在这些方法中应用：
+
+```JavaScript
+getMany, getOne, getRawMany, getRawOne and getCount
+find, findAndCount, findByIds, and count
+```
+
+
+```JavaScript
+{
+    type: "mysql",
+    host: "localhost",
+    username: "test",
+    ...
+    cache: true
+}
+```
+
+
+```JavaScript
+const users = await connection
+    .createQueryBuilder(User, "user")
+    .where("user.isAdmin = :isAdmin", { isAdmin: true })
+    .cache(true)
+    .getMany();
+```
+
+```JavaScript
+const users = await connection
+    .getRepository(User)
+    .find({
+        where: { isAdmin: true },
+        cache: true
+    });
+```
+
+```JavaScript
+const users = await connection
+    .createQueryBuilder(User, "user")
+    .where("user.isAdmin = :isAdmin", { isAdmin: true })
+    .cache(60000) // 1 minute
+    .getMany();
+```
+
+```JavaScript
+{
+    type: "mysql",
+    host: "localhost",
+    username: "test",
+    ...
+    cache: {
+        duration: 30000 // 30 seconds
+    }
+}
+```
+
+```JavaScript
+const users = await connection
+    .createQueryBuilder(User, "user")
+    .where("user.isAdmin = :isAdmin", { isAdmin: true })
+    .cache("users_admins", 25000)
+    .getMany();
+```
+
+当然TypeORM也可以用redis当作缓存模块，这样也是比较不错的做法。
+
+```JavaScript
+{
+    type: "mysql",
+    host: "localhost",
+    username: "test",
+    ...
+    cache: {
+        type: "redis",
+        options: {
+            host: "localhost",
+            port: 6379
+        }
+    }
+}
+```
