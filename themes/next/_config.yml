@@ -350,7 +350,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zMTgyMi84Mzg2
+
 
 # Baidu Share
 # Available value:
@@ -441,17 +441,17 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: true
+  enable: false
   # custom uv span for the whole site
-  site_uv: true
+  site_uv: false
   site_uv_header: 本站访客数
   site_uv_footer:
   # custom pv span for the whole site
-  site_pv: true
+  site_pv: false
   site_pv_header: 本站访问
   site_pv_footer: 人次
   # custom pv span for one page only
-  page_pv: true
+  page_pv: false
   page_pv_header: 本站阅读数
   page_pv_footer:
 
@@ -589,7 +589,7 @@ canvas_ribbon: false
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
-#    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
+jquery: https://cdn.bootcss.com/jquery/2.1.3/jquery.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
@@ -597,7 +597,7 @@ vendors:
   _internal: lib
 
   # Internal version: 2.1.3
-  jquery:
+  jquery:  https://cdn.bootcss.com/jquery/2.1.3/jquery.js
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
@@ -614,11 +614,11 @@ vendors:
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity:
+  velocity: https://cdn.bootcss.com/velocity/1.2.1/velocity.js
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity_ui:
+  velocity_ui: https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js
 
   # Internal version: 0.7.9
   # See: https://faisalman.github.io/ua-parser-js/
@@ -626,7 +626,7 @@ vendors:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome:
+  fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css
 
   # Internal version: 1
   # https://www.algolia.com
