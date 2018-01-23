@@ -1,7 +1,7 @@
 ---
 title: Activity详解
 date: 2017-11-14 09:44:21
-tags: activity
+tags: Activity基础
 categories: Android
 ---
 

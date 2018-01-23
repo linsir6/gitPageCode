@@ -2,8 +2,8 @@
 layout: post
 title: ubuntu下安装ruby
 date: 2018-01-12 20:35:31
-tags: [ Linux , Ruby ]
-categories: [ Linux , Ruby ]
+tags: Linux下安装Ruby
+categories: Linux
 ---
 
 # ubuntu下安装ruby

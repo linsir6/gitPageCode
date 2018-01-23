@@ -1,7 +1,7 @@
 ---
 title: 深入了解MVXX模式
 date: 2017-11-17 12:13:35
-tags: 架构模式
+tags: MVXX模式对比
 categories: 设计模式
 ---
 

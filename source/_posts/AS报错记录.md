@@ -1,7 +1,7 @@
 ---
 title: AS报错记录
 date: 2018-01-22 11:14:30
-tags: Android报错记录
+tags: AS报错记录
 categories: Android
 ---
 
@@ -30,5 +30,3 @@ categories: Android
 ``distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip``换成能运行项目中的内容。
 
 2. 可以将https协议换成http协议，然后点击``try again``
-
-

@@ -1,7 +1,7 @@
 ---
 title: Android将library打包成jar文件或aar文件.md
 date: 2017-11-17 12:10:09
-tags: jar aar
+tags: 打包jar/aar
 categories: Android
 ---
 

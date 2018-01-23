@@ -1,7 +1,7 @@
 ---
 title: Android中使用Fragment.instance创建实例并且赋初值
 date: 2017-11-27 16:56:09
-tags: Fragment
+tags: Fragment示例化
 categories: Android
 ---
 

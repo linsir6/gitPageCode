@@ -1,7 +1,7 @@
 ---
 title: linux常用命令
 date: 2017-11-17 12:02:11
-tags: [linux,mac]
+tags: Linux/Mac常用命令
 categories: Linux
 ---
 

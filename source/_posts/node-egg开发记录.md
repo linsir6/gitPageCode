@@ -2,7 +2,7 @@
 layout: post
 title: node/egg开发记录
 date: 2018-01-02 19:57:05
-tags: NodeJs
+tags: [Egg框架,NodeJs]
 categories: NodeJs
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 让ssh,scp这些命令不需要密码
 date: 2018-01-19 17:21:25
-tags: [linux,ssh,scp]
-categories: linux
+tags: Linux无密码操作
+categories: Linux
 ---
 
 # 让ssh,scp这些命令不需要密码
@@ -37,5 +37,3 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 
 它的原理就是利用公钥/私钥的方式，取代了密码的方式。
-
-

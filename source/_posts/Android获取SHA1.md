@@ -1,7 +1,7 @@
 ---
 title: Android获取SHA1
 date: 2017-12-07 18:09:21
-tags: SHA1
+tags: SHA1获取
 categories: Android
 ---
 
@@ -61,19 +61,3 @@ keytool -v -list -keystore ~/.android/debug.keystore
 *******************************************
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

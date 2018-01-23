@@ -1,7 +1,7 @@
 ---
 title: 鸟哥的Linux私房菜笔记
 date: 2017-11-18 17:21:25
-tags: Linux
+tags: Linux基础学习
 categories: Linux
 ---
 

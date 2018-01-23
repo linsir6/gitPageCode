@@ -1,7 +1,7 @@
 ---
 title: Android封装BaseActivity
 date: 2017-11-25 15:23:26
-tags: Activity
+tags: BaseActivity
 categories: Android
 ---
 

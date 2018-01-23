@@ -1,8 +1,8 @@
 ---
 title: Android GitLabCi的配置
 date: 2017-11-14 17:39:28
-tags: gitlab
-categories: [Git,Linux]
+tags: GitLab-CI配置
+categories: GitLab
 ---
 
 # Android GitLabCi的配置

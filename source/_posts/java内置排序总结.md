@@ -1,7 +1,7 @@
 ---
 title: java内置排序总结
 date: 2018-01-18 17:30:00
-tags: 排序
+tags: Java内置排序
 categories: Java
 ---
 

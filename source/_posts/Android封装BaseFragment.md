@@ -1,7 +1,7 @@
 ---
 title: Android封装BaseFragment
 date: 2017-11-27 16:15:08
-tags: Fragment
+tags: BaseFragment
 categories: Android
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: node与npm的更新
 date: 2017-11-17 11:55:11
-tags: NodeJs
+tags: [NodeJs,npm]
 categories: NodeJs
 ---
 

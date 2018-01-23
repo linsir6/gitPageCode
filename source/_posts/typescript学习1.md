@@ -3,7 +3,7 @@ layout: post
 title: typescript学习一
 date: 2017-12-26 22:04:33
 tags: [NodeJs,TypeScript]
-categories: [NodeJs,TypeScript]
+categories: TypeScript
 ---
 
 # typescript语法学习

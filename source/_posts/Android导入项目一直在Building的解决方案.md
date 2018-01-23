@@ -1,7 +1,7 @@
 ---
 title: Android导入项目一直在Building的解决方案
 date: 2017-11-16 15:58:10
-tags: gradle
+tags: Gradle
 categories: Android
 ---
 

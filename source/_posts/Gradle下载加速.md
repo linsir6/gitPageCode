@@ -2,7 +2,7 @@
 title: Gradle下载加速
 date: 2018-01-23 10:1:21
 tags: Gradle
-categories: [Android,Gradle]
+categories: Gradle
 ---
 
 # Gradle下载加速

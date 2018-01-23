@@ -1,7 +1,7 @@
 ---
 title: Android检查app是否具有推送权限
 date: 2017-11-16 15:52:11
-tags: 权限
+tags: Android检查推送权限
 categories: Android
 ---
 
