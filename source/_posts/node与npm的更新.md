@@ -1,8 +1,8 @@
 ---
 title: node与npm的更新
 date: 2017-11-17 11:55:11
-tags: node
-categories: node
+tags: NodeJs
+categories: NodeJs
 ---
 
 1 . 检查 Node的当前版本，使用命令

@@ -1,8 +1,8 @@
 ---
 title: linux常用命令
 date: 2017-11-17 12:02:11
-tags: linux mac
-categories: linux
+tags: [linux,mac]
+categories: Linux
 ---
 
 # 记录一些mac/linux上面常用的命令

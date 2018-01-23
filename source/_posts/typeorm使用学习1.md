@@ -2,8 +2,8 @@
 layout: post
 title: typeorm使用学习记录1
 date: 2017-12-28 10:53:46
-tags: typeorm
-categories: nodejs
+tags: [NodeJs,TypeORM,TypeScript]
+categories: [NodeJs,TypeORM,TypeScript]
 ---
 
 # typeorm使用学习记录1

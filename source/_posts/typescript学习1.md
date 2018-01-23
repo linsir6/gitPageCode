@@ -2,8 +2,8 @@
 layout: post
 title: typescript学习一
 date: 2017-12-26 22:04:33
-tags: typescript
-categories: nodejs
+tags: [NodeJs,TypeScript]
+categories: [NodeJs,TypeScript]
 ---
 
 # typescript语法学习

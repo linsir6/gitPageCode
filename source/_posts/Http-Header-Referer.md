@@ -2,8 +2,8 @@
 layout: post
 title: Http Header Referer
 date: 2017-12-15 16:08:40
-tags: http
-categories: http
+tags: Http
+categories: Http
 ---
 
 # Http Header Referer属性
@@ -46,5 +46,3 @@ eg：
 
 
 that's all
-
-

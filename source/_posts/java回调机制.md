@@ -2,7 +2,7 @@
 title: java回调机制
 date: 2017-11-17 12:05:50
 tags: 回调
-categories: java
+categories: Java
 ---
 
 > java中实现观察者模式有很多种方式，上一篇文章介绍到了，[利用callback的方式实现了回调](http://www.jianshu.com/p/67190bdce647)，这篇文章准备介绍的是利用listener实现回调。

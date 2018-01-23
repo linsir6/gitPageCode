@@ -2,7 +2,8 @@
 layout: post
 title: ubuntu下安装ruby
 date: 2018-01-12 20:35:31
-tags: [ linux , ruby ]
+tags: [ Linux , Ruby ]
+categories: [ Linux , Ruby ]
 ---
 
 # ubuntu下安装ruby
@@ -39,4 +40,3 @@ ruby -v
 
 ruby 2.2.7p470 (2017-03-28 revision 58194) [x86_64-linux]
 ```
-

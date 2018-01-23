@@ -2,7 +2,7 @@
 title: 浅析ssh协议
 date: 2017-11-15 11:16:27
 tags: ssh
-categories: 网络协议
+categories: ssh
 ---
 
 # SSH原理与应用

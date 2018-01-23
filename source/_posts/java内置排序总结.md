@@ -2,7 +2,7 @@
 title: java内置排序总结
 date: 2018-01-18 17:30:00
 tags: 排序
-categories: java
+categories: Java
 ---
 
 # java内置排序总结
@@ -94,12 +94,11 @@ categories: java
 
 ```
 //控制台输出
-a	b	c	e	q	
-1	2	3	6	7	
-7	6	3	2	1	
-1	2	4	5	9	
+a	b	c	e	q
+1	2	3	6	7
+7	6	3	2	1
+1	2	4	5	9
 a	b	c	d	z
 ```
 
 以上的代码，就展示了两种方式，一种是直接用默认的方法进行排序，一种是自己重写排序规则。
-

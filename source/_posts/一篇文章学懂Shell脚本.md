@@ -1,8 +1,8 @@
 ---
 title: 一篇文章学懂Shell脚本
 date: 2017-11-13 17:58:23
-tags: shell
-categories: shell
+tags: Shell
+categories: Shell
 
 ---
 

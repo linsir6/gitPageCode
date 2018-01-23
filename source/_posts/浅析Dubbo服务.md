@@ -1,8 +1,8 @@
 ---
 title: 浅析Dubbo服务
 date: 2017-11-17 11:04:12
-tags: dubbo
-categories: 网络协议
+tags: Dubbo
+categories: Dubbo
 ---
 
 # 浅析Dubbo服务

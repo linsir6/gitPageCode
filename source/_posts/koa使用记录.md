@@ -2,7 +2,7 @@
 title: koa使用记录--接收文件
 date: 2017-12-10 14:02:02
 tags: koa
-categories: node
+categories: NodeJs
 ---
 
 # koa使用记录--接收文件
@@ -44,7 +44,7 @@ app.use(async function (ctx, next) {
 
     const file = ctx.request.body.files.file;
     console.log(file.path)
-    ctx.body = "success"; 
+    ctx.body = "success";
 });
 
 // listen

@@ -1,8 +1,8 @@
 ---
 title: 浅析RPC协议
 date: 2017-11-17 11:45:14
-tags: rpc
-categories: 网络协议
+tags: RPC
+categories: RPC
 ---
 
 # 浅析RPC协议

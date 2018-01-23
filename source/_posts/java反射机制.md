@@ -2,7 +2,7 @@
 title: java反射机制
 date: 2018-01-18 12:05:50
 tags: 反射
-categories: java
+categories: Java
 ---
 
 # java反射机制
@@ -111,5 +111,3 @@ public class Student {
 
 
 获取所有构造方法，还有就是动态的调用一些方法，或者动态调用私有方法～
-
-

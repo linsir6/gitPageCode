@@ -2,7 +2,7 @@
 title: java注解的编写与使用
 date: 2018-01-18 15:30:50
 tags: 注解
-categories: java
+categories: Java
 ---
 
 # java注解使用
@@ -194,5 +194,3 @@ Annotation in Method 'public static void comment.Main.genericsTest() throws java
 ```
 
 以上的代码我们就是定义了几个方法，用上了我们自己定义的注解，然后在``Main``方法中。利用反射，将我们定义的注解解析出来。将里面的值打印出来，当然在实际的操作中，我们应该执行自己的逻辑，而不紧紧是把他们打印出来。
-
-

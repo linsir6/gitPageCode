@@ -2,7 +2,7 @@
 title: java程序中一些应该注意的点
 date: 2018-01-18 17:30:00
 tags: 编程技巧
-categories: java
+categories: Java
 ---
 
 # java程序中一些应该注意的点
@@ -123,22 +123,3 @@ public static void remove3(List<String> list, String target){
         }
    }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

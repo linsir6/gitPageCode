@@ -2,7 +2,7 @@
 title: Gradle下载加速
 date: 2018-01-23 10:1:21
 tags: Gradle
-categories: Android
+categories: [Android,Gradle]
 ---
 
 # Gradle下载加速
@@ -46,4 +46,3 @@ allprojects {
 ```
 
 我们只需要新增以上的两行就可以了，这样我们的下载速度就会非常快了。
-

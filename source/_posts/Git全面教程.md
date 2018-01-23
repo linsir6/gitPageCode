@@ -1,8 +1,8 @@
 ---
 title: Git全面教程
 date: 2017-11-15 20:22:29
-tags: github
-categories: git
+tags: Git
+categories: Git
 ---
 
 

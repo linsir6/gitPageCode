@@ -2,7 +2,7 @@
 title: 浅谈Socket协议
 date: 2017-11-17 11:40:58
 tags: socket
-categories: 网络协议
+categories: Socket
 ---
 
 # 浅谈Socket协议
