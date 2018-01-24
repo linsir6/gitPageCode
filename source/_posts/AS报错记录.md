@@ -20,7 +20,7 @@ categories: Android
 一般来说遇到这种问题的大多数的场景，都是多个``.gradle``文件在合并的过程中遇到了问题，我们可以根据报错，和我们的回忆来检查到底是哪里出现的问题。
 
 
-## Error:Failed to open zip file.
+## Error : Failed to open zip file.
 
 这个错误的原因就是，我们更换了``gradle``版本，从而产生了报错。
 
@@ -30,3 +30,14 @@ categories: Android
 ``distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip``换成能运行项目中的内容。
 
 2. 可以将https协议换成http协议，然后点击``try again``
+
+## Error : java.lang.NoSuchMethodError: No static method getFont...
+
+问题原因:
+
+```
+compile 'com.android.support:appcompat-v7:26.+'
+implementation 'com.android.support:recyclerview-v7:27.+'
+```
+
+两个本本不一致。 只需要将版本统一一下，就可以了。
