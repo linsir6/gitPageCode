@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vim使用记录.md
+title: vim使用记录
 date: 2018-01-31 18:11:08
 tags: vim
 categories: vim
